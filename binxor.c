@@ -10,7 +10,7 @@ void usage(char *progname)
   fprintf(stderr, "Usage: %s [-k <key> | -K <keyfile>] [-f <infile>] [-o <outfile>]\n", progname);
 }
 
-#define BUFSIZE 1024*1024*1024
+#define BUFSIZE 131072
 
 int main(int argc, char *argv[])
 {
