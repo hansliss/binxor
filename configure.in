@@ -8,9 +8,9 @@ AC_DEFINE_UNQUOTED(VERSION, "$VERSION")
 AC_SUBST(PRODUCT)
 AC_SUBST(VERSION)
 
-LDFLAGS="$LDFLAGS -L/usr/local/lib -L/opt/iplogin2/lib"
-CFLAGS="$CFLAGS -I/usr/local/include -I/opt/iplogin2/include"
-CPPFLAGS="$CPPFLAGS -I/usr/local/include -I/opt/iplogin2/include"
+LDFLAGS="$LDFLAGS -L/usr/local/lib"
+CFLAGS="$CFLAGS -I/usr/local/include"
+CPPFLAGS="$CPPFLAGS -I/usr/local/include"
 
 dnl Checks for programs.
 AC_PROG_CC
